@@ -2,7 +2,7 @@
 
 ## By Judah Goldfeder
 
-## Overview:
+## Overview
 
 This repo serves as a didactic example of Counterfactual Regret Minimization in action. the CFR algorithm is used to find a nash equilibrium in 2 player zero sum imperfect information games. 
 
