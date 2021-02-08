@@ -15,3 +15,11 @@ This repo contains two seperate algorithms that converge to a Nash Equilibrium. 
 
 ## Theoretical Correctness
 It is a well known [theoretical result](https://poker.cs.ualberta.ca/publications/AAAI05.pdf) that in an equilibrium strategy, player one has an expected value of -1/18 per hand (or about -.055). In a small number of iterations, both the normal form and sequential form algorithms converge to this value, confirming the correctness of the implimentation.
+
+## Running The Code
+To run the code, invoke one of:
+
+> python normal_form.py <num_iterations>
+
+> python sequential_form.py  <num_iterations>
+
