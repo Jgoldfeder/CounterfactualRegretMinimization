@@ -14,7 +14,7 @@ The details of CFR, and a description of how it applies to Kuhn Poker, were adop
 This repo contains two seperate algorithms that converge to a Nash Equilibrium. The first algorithm considers a modifed version of Kuhn Poker in normal form. The normal form version is of course strategically identical to the standard sequential form, but allows us to calculate a Nash Equilibrium with simple regret matching. The second algorithm considers the standard version of Kuhn Poker, and finds a Nash  Equilibrium using the CFR algorithm.
 
 ## Theoretical Correctness
-It is a well known [theoretical result](https://poker.cs.ualberta.ca/publications/AAAI05.pdf) that in an equilibrium strategy, player one has an expected value of -1/18 per hand (or about -.055). In a small number of iterations, both the normal form and sequential form algorithms converge to this value, confirming the correctness of the implimentation.
+It is a well known [theoretical result](https://poker.cs.ualberta.ca/publications/AAAI05.pdf) that in an equilibrium strategy, player one has an expected value of -1/18 per hand (or about -.055). In a small number of iterations, both the normal form and sequential form algorithms converge to this value, confirming the correctness of the implementation
 
 ## Running The Code
 To run the code, invoke one of:
